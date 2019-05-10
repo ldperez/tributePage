@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navbar {
+  background-color: #292929;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden; }
+  .navbar .companyName {
+    margin-left: 20px; }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em; }
+  .flex-container .description-br {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0; }
+  @media (min-width: 768px) {
+    .flex-container .description-br {
+      margin: 50px 35% 0 35%; } }
+  .flex-container .description-sw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0; }
+  @media (min-width: 768px) {
+    .flex-container .description-sw {
+      margin: 10px 35% 0 35%; } }
+  .flex-container .brPic {
+    max-width: 100%;
+    height: auto; }
+  .flex-container .swPic {
+    max-width: 100%;
+    height: auto; }
+  .flex-container .aboutBr .aboutSw {
+    font-size: 6em;
+    word-wrap: break-word; }
+  .flex-container .bold {
+    font-weight: bold; }
+  .flex-container .awards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0; }
+    .flex-container .awards #tableFornite {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 5px; }
+    .flex-container .awards tr:nth-child(even) {
+      background-color: #dddddd; }
+    .flex-container .awards table {
+      border-collapse: collapse;
+      width: 100%; }
+  @media (max-width: 768px) {
+    .flex-container .awards {
+      display: none; } }
+
+/*# sourceMappingURL=style.css.map */

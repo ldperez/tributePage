@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+  .navbar{
+  	background-color: #292929;
+  	color: white;
+  	width: 100%;
+  	position: fixed;
+  	top:0;
+  	overflow: hidden;
+
+.companyName{
+	margin-left: 20px;
+}
+
+  }
+
+
+
+
+  .flex-container{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.6em;
+
+  .description-br{
+  	display: flex;
+  	flex-direction: column;
+  	
+  	justify-content: center;
+	align-items: center;
+	margin: 50px 0 0 0; 
+}
+	@media (min-width: 768px) {
+		.description-br{
+		margin: 50px 35% 0 35%;
+		}
+	}
+
+ 
+  .description-sw{
+  	display: flex;
+  	flex-direction: column;
+  	
+  	justify-content: center;
+	align-items: center;
+	margin: 10px 0 0 0;
+	}
+		@media (min-width: 768px) {
+		.description-sw{
+		margin: 10px 35% 0 35%;
+		}
+	}
+
+.brPic{
+	max-width: 100%;
+	height: auto;
+	
+}
+.swPic{
+	max-width: 100%;
+	height: auto;
+}
+.aboutBr .aboutSw{
+	font-size: 6em;
+	
+	
+	word-wrap: break-word;
+
+}
+.bold{
+	font-weight: bold;
+}
+
+
+.awards{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0;
+
+
+	
+		
+	
+  
+#tableFornite{
+   border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+  	
+  
+}
+
+}
+@media (max-width: 768px){
+	.awards{
+		display: none;
+		
+	}
+}
+
+}
